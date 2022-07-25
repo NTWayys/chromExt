@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Movie Dashboard",
+    "version": "1.0.0",
+    "description": "Keeps me up to date with movies",
+    "action": {
+        "default_icon": "icon.png"
+    },
+    "chrome_url_overrides": {
+        "newtab": "index.html"
+    }
+}

@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="index.css">
+        <title>Movie Dashboard</title>
+    </head>
+    <body>
+        <main>    
+            <div id="movieList">
+                <div class="movie">
+                    <div class="dimmer">
+                        <h3>original_title</h3>
+                        <div class="sideInfo">
+                            <p>release_date</p><p>genre_ids</p>
+                        </div>
+                    </div>
+                </div>               
+            </div>
+            <div id="topDiv">
+                <div id="timeDiv"></div>
+                <div id="searchDiv">
+                    <input id="googleSearch" type="search" />
+                    <button id="googleSearchBtn"><i class="fa fa-search"></i>Search</button>
+                </div>
+                <div id="weatherDiv"></div>
+            </div>
+            <div id="movieContainer">
+            </div>
+        </main>
+        <script src="index.js"></script>
+    </body>
+</html>
